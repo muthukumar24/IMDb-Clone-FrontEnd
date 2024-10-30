@@ -32,7 +32,7 @@ function Movies() {
   };
 
   const getActors = async () => {
-    const res = await fetch('http://localhost:4000/cast/actors', {
+    const res = await fetch('https://imdbclone-backend.onrender.com/cast/actors', {
       method: "GET",
       headers: {
         "Content-Type": "application/json",
@@ -48,7 +48,7 @@ function Movies() {
 
   const getProducers = async () => {
     const res = await fetch(
-      'http://localhost:4000/cast/producers',
+      'https://imdbclone-backend.onrender.com/cast/producers',
       {
         method: "GET",
         headers: {
