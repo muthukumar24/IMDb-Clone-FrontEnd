@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+
+* {
+  font-family: Outfit;
+  scroll-behavior: smooth;
+}
+
+html,
+body,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+img {
+  margin: 0;
+  padding: 0;
+}
+
+/* Login & Signup Component */
+.login-main-div,
+.signup-main-div {
+  background-color: #000000;
+  height: 100vh;
+}
+.login-div,
+.signup-div {
+  background-color: #f8f8ff;
+  border-radius: 15px;
+  width: 500px;
+}
+.signup-link:hover,
+.login-link:hover {
+  text-underline-offset: 3px !important;
+  color: rgb(79, 79, 79) !important;
+}
+
+/* Navbar Style */
+.student-main-div {
+  height: 100vh;
+}
+
+nav ul li a {
+  display: block;
+  text-decoration: none;
+  color: white;
+  padding: 0.5rem;
+  margin: 0 0.5rem;
+  border-radius: 0.5rem;
+}
+
+nav ul li a:not(.active):hover {
+  background-color: white;
+  color: black;
+}
+nav ul li a:is(.active) {
+  background-color: #e4d00a;
+  color: black;
+}
+.navbar-toggler {
+  color: white;
+}
+
+.card:hover {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  cursor: pointer;
+}
+
+.card-footer {
+  transition-delay: 2s;
+  display: block !important;
+  cursor: pointer !important;
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: space-around !important;
+}
+
+.movie-img {
+  width: 100%;
+  height: 300px;
+  object-fit: fill;
+}
+
+.card-body {
+  padding-top: 0;
+  padding-bottom: 10px;
+  font-size: 15px;
+}
+
+.movie-plot-div {
+  text-align: justify;
+}
+
+.movie-plot {
+  font-size: 13px;
+}
